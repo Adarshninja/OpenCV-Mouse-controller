@@ -60,3 +60,19 @@ Camera → Hand Detection → Gesture Logic → Mouse Control
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+
+2. Create Virtual Environment (Optional but Recommended)
+python -m venv venv
+source venv/bin/activate   # For Linux/Mac
+venv\Scripts\activate      # For Windows
+
+3. Install Dependencies
+pip install opencv-python mediapipe pyautogui numpy
+
+4. Download MediaPipe Model
+
+Download the hand landmarker model:
+
+https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task
+
+Place it in the project folder.
